@@ -151,25 +151,19 @@ h3,
 
 /* portfolio page */
 
-.work {
-  position: relative;
-  overflow: auto;
-
-}
-
 .work img {
   border: 0 none;
   opacity: 0.8;
-
-
 }
+
+
 
 .work h3 {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
+  left: 0px;
   width: 100%;
-  padding: 15px;
-  margin: 0 15px 0 15px; /*left margin does nothing!!!*/
+  padding: 15px 0px 15px 0;
   font-weight: 300;
   line-height: 30px;
   color: #fff;
@@ -237,12 +231,11 @@ input[type=submit] {
   }
   .main-section {
     bottom-margin: 25px;
-  
   }
   .sidebar {
     margin: 0;
   }
-      .navbar-right {
+  .navbar-right {
     width: 100%;
   }
 }
